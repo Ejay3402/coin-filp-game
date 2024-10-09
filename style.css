@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-weight: 700;
+    font-family: sans-serif;
+    background: rgb(114, 11, 11);
+}
+
+.box {
+    width: 95%;
+    max-width: 600px;
+    padding: 20px;
+    background: #f4f4f4;
+    text-align: center;
+    border-radius: 11px;
+}
+
+h1 {
+    margin: 15px auto;
+}
+
+button {
+    padding: 10px 15px;
+    font-weight: 700;
+    cursor: pointer;
+    background: rgb(52, 3, 98);
+    border: none;
+    color: #f4f4f4;
+    font: inherit;
+    transition: .200s ease-in;
+}
+
+button:hover {
+    background: blue;
+}
+
+p {
+    margin: 10px auto;
+    line-height: 1.4;
+    font-family: Arial, Helvetica, sans-serif;
+}
